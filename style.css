@@ -1,0 +1,187 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(160,229,230);
+    background: linear-gradient(0deg, rgba(160,229,230,1) 0%, rgba(230,255,242,1) 99%);
+}
+
+
+
+.contenido {
+    width: 60%;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border: none;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#cargando {
+    display: none; /* oculto por defecto */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resultado {
+    margin-top: 20px;
+}
+
+/* Estilos específicos para los elementos del formulario */
+.class,
+.class2 {
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+
+
+/*BOTON**/
+
+.class3 {
+    display: block; 
+    margin: 0 auto; 
+    background-color: rgb(205, 248, 205);
+    padding: 10px;
+    color: rgb(3, 41, 14);
+    border: none;
+    width: 50%;
+}
+
+
+
+/**TIPO**/
+/* Estilos para mensajes de error */
+.error {
+    background-color: #f8d7da; /* Fondo rojo claro */
+    color: #721c24; /* Texto rojo oscuro */
+    border: 1px solid #f5c6cb; /* Borde rojo claro */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos para mensajes generales */
+.mensaje {
+    background-color: #d1ecf1; /* Fondo azul claro */
+    color: #0c5460; /* Texto azul oscuro */
+    border: 1px solid #bee5eb; /* Borde azul claro */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.exito {
+    background-color: #d4edda; /* Fondo verde claro */
+    color: #155724; /* Texto verde oscuro */
+    border: 1px solid #c3e6cb; /* Borde verde claro */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.mt-10 {
+    margin-top: 20px;
+}
+
+/* Estilos para mensajes de confirmación o éxito */
+.correcto {
+    background-color: #d4edda; /* Fondo verde claro */
+    color: #155724; /* Texto verde oscuro */
+    border: 1px solid #c3e6cb; /* Borde verde claro */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/****/
+
+/* Estilos para la clase header */
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Espacio inferior */
+    background-color: #bee5eb;
+    border-radius: 30px;
+   
+  }
+  
+  /* Estilos para la clase font-bold */
+  .font-bold {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+
+  /*SPINNER*/
+  .spinner {
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #333;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  

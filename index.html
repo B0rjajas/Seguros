@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+ <div class="container">
+        <div class="contenido">
+            <header>
+                <h1>TIPO SEGURO</h1>
+            </header>
+            <form action="" id="cotizar-seguro">
+                <div class="class">
+                    <label for="">Marca</label>
+                    <select name="" id="marca">
+                        <option value="">-Seleccionar</option>
+                        <option value="1">Americano</option>
+                        <option value="2">Asiatico</option>
+                        <option value="3">Europeo</option>
+
+                    </select>
+                </div>
+
+                <div class="class2">
+                    <label for="">Año</label>
+                    <select name="" id="year"></select>
+                </div>
+
+
+            
+            <fieldset>
+                <legend>Tipo Seguro </legend>
+                <div class="flex">
+                    <div>
+                        <label for="">Básico</label>
+                        <input type="radio" name="tipo" value="basico" checked>
+                    </div>
+                    <div>
+                        <label for="">Completo</label>
+                        <input type="radio" name="tipo" value="completo">
+                    </div>
+                </div>
+            </fieldset>
+
+            <div id="cargando" class="spinner"></div>
+                <div id="resultado"></div>
+
+
+                <!--PUTo BOTON--->
+                <button type="submit" class="class3">Enviar</button>
+
+            </form>
+
+    </div>
+</div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
